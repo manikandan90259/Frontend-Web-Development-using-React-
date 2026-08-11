@@ -1,0 +1,110 @@
+.app-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2, h3 {
+  color: #333;
+  text-align: center;
+}
+
+/* Form Styles */
+.registration-form {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #004494;
+}
+
+/* Alert Messages */
+.success-message {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  text-align: center;
+  border: 1px solid #c3e6cb;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  text-align: center;
+  border: 1px solid #f5c6cb;
+}
+
+/* Table Styles */
+.divider {
+  margin: 30px 0;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+.participants-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.participants-table th, .participants-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.participants-table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.participants-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.no-data {
+  text-align: center;
+  color: #777;
+  font-style: italic;
+}
